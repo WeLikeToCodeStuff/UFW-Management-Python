@@ -11,14 +11,15 @@ acceptdeny = input("Would you like to deny or to accept a port? Type deny to den
 if acceptdeny == "accept":
     acceptport = input("What port would you like to accept?: ")
     os.system("ufw allow " + acceptport)
-    print("Port opened!")
+    print(f"Port '{acceptport}' opened!")
     exit()
 
 elif acceptdeny == "deny":
     denyport = input("What port would you like to deny?: ")
     os.system("ufw deny " + denyport)
-    print("Port closed!")
+    print(f"Port '{denyport}' closed!")
     exit()
 
-else:
+  else:
+    print("That's not a valid option. Please choose 'accept' or 'deny'")
     exit()
