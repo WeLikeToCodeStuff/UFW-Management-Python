@@ -9,7 +9,7 @@
 
 > UFW-Management-Python is a script that lets you allow or deny ports easily!
 
-### 🏠 [Homepage](https://ssmidge.xyz)
+### THIS IS BROKEN AND I DO NOT PLAN ON FIXING IT
 
 ## Install
 
