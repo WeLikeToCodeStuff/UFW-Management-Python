@@ -13,15 +13,19 @@
 
 ## Install
 
+### Requirements
+Python & PIP3
+UFW
+
 ```sh
-N/A
+pip3 install ufw-config
 ```
 
 
 ## Usage
 
 ```sh
-N/A
+sudo ufw-config
 ```
 
 ## Author
