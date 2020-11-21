@@ -18,14 +18,14 @@ Python & PIP3
 UFW
 
 ```sh
-pip3 install ufw-config
+pip3 install ufw_config
 ```
 
 
 ## Usage
 
 ```sh
-sudo ufw-config
+sudo ufw_config
 ```
 
 ## Author
