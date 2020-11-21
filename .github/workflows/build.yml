@@ -1,8 +1,6 @@
 name: Build
-on:
-    - pull_request
-    - master
- 
+on: [push, pull_request]
+
 jobs:
     build:
         strategy:
