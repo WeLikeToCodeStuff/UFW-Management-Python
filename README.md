@@ -46,5 +46,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [NeonDevelopment && SsmidgeXYZ](https://github.com/WeLikeToCodeStuff).<br />
+Copyright © 2020 [NeonDevelopment](https://github.com/WeLikeToCodeStuff).<br />
 This project is [Apache License](https://apache.org/licenses/LICENSE-2.0.txt) licensed.
