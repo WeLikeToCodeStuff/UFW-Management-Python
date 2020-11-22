@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name="ufw-config",
-    version="0.0.2",
+    version="0.0.3",
     author="Throw Out Error",
     description=("Generates Apache2 config files for custom domains."),
     license="MIT",
