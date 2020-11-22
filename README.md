@@ -28,13 +28,20 @@ pip3 install ufw_config
 sudo ufw_config
 ```
 
-## Author
+## Authors
 
 👤 **NeonDevelopment**
 
 
 * Website: https://neon-is.fun (Neon)
 * Github: [@WeLikeToCodeStuff](https://github.com/WeLikeToCodeStuff)
+
+👤 **Theo Paris**
+
+
+* Website: https://li.toes.tech/theoparis/
+* Github: [@creepinson](https://github.com/creepinson)
+
 
 ## 🤝 Contributing
 
