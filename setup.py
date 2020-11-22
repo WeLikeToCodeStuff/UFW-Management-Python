@@ -13,10 +13,10 @@ def read(fname):
 
 setup(
     name="ufw-config",
-    version="0.0.3",
-    author="Throw Out Error",
-    description=("Generates Apache2 config files for custom domains."),
-    license="MIT",
+    version="0.0.4",
+    author="WeLikeToCodeStuff",
+    description=("Configure UFW"),
+    license="Apache 2.0",
     keywords="ufw configuration tool",
     url="https://github.com/WeLikeToCodeStuff/UFW-Management-Python",
     packages=find_packages(),
