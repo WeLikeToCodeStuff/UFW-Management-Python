@@ -9,28 +9,39 @@
 
 > UFW-Management-Python is a script that lets you allow or deny ports easily!
 
-### 🏠 [Homepage](https://ssmidge.xyz)
+### This is currently broken, I cant be bothered to fix it, so if someone out there is really nice, and fixes it, thank you!
 
 ## Install
 
+### Requirements
+Python & PIP3
+UFW
+
 ```sh
-N/A
+pip3 install ufw_config
 ```
 
 
 ## Usage
 
 ```sh
-N/A
+sudo ufw_config
 ```
 
-## Author
+## Authors
 
 👤 **NeonDevelopment**
 
 
 * Website: https://neon-is.fun (Neon)
 * Github: [@WeLikeToCodeStuff](https://github.com/WeLikeToCodeStuff)
+
+👤 **Theo Paris**
+
+
+* Website: https://li.toes.tech/theoparis/
+* Github: [@creepinson](https://github.com/creepinson)
+
 
 ## 🤝 Contributing
 
@@ -42,5 +53,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [NeonDevelopment && SsmidgeXYZ](https://github.com/WeLikeToCodeStuff).<br />
+Copyright © 2020 [NeonDevelopment](https://github.com/WeLikeToCodeStuff).<br />
 This project is [Apache License](https://apache.org/licenses/LICENSE-2.0.txt) licensed.
