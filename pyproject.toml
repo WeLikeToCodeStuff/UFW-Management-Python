@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "ufw-config"
-version = "0.0.7"
-description = "A Tool for opening and closing ports with UFW."
-authors = ["NeonDevelopment <root@neon-is.fun>"]
+name = "ufw_config"
+version = "0.0.1"
+description = "A tool for opening and closing ports with UFW."
+authors = ["NeonDevelopment <root@neon-is.fun>", "Theo Paris <theo@toes.tech>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.6,<3.10"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-black = {version = "^20.8b1", allow-prereleases = true}
+black = { version = "^20.8b1", allow-prereleases = true }
 poethepoet = "^0.9.0"
 
 [tool.poetry.scripts]

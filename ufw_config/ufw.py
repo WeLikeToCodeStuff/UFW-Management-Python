@@ -1,5 +1,6 @@
 import os
 from sys import exit
+from .generator import UfwConfigGenerator
 
 
 def main():
@@ -14,18 +15,20 @@ def main():
         "\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015"
     )
 
+    generator = UfwConfigGenerator()
+
     acceptdeny = input(
         "Would you like to deny or to accept a port? Type deny to deny and accept to accept: "
     )
     if acceptdeny == "accept":
         acceptport = input("What port would you like to accept?: ")
-        os.system("ufw allow " + acceptport)
+        generator.generate(acceptport, True)
         print(f"Port '{acceptport}' opened!")
         exit()
 
     elif acceptdeny == "deny":
         denyport = input("What port would you like to deny?: ")
-        os.system("ufw deny " + denyport)
+        generator.generate(denyport, True)
         print(f"Port '{denyport}' closed!")
         exit()
 
