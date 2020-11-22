@@ -20,7 +20,7 @@ def main():
     typeofstatus = input(
         "Would you like to accept or deny a port? \n(You can also type 'portrange' to specify a portrange to accept/deny): "
     )
-    acceptdeny = typesofstatus.lower()
+    acceptdeny = typeofstatus.lower()
     if acceptdeny == "accept":
         acceptport = input("What port would you like to accept?: ")
         generator.generate(acceptport, True)
