@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ufw_config"
-version = "0.0.1"
+version = "0.0.2"
 description = "A tool for opening and closing ports with UFW."
 authors = ["NeonDevelopment <root@neon-is.fun>", "Theo Paris <theo@toes.tech>"]
 
