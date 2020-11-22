@@ -9,7 +9,7 @@ def main():
         "\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015"
     )
     print("Thank you for using the UFW configure tool")
-    print("Made by NeonDevelopment")
+    print("Made by NeonDevelopment && Theo Parris")
     print("\u00A9 WeLikeToCodeStuff 2020 - Current year")
     print(
         "\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015"
@@ -18,7 +18,7 @@ def main():
     generator = UfwConfigGenerator()
 
     acceptdeny = input(
-        "Would you like to accept or deny a port? \n(You can also type portrange to specify a portrange to accept/deny): "
+        "Would you like to accept or deny a port? \n(You can also type 'portrange' to specify a portrange to accept/deny): "
     )
     if acceptdeny == "accept":
         acceptport = input("What port would you like to accept?: ")
