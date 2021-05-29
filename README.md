@@ -32,7 +32,7 @@ sudo ufw_config
  **NeonDevelopment**
 
 
-* Website: https://neon-is.fun (Neon)
+* Website: https://neonthe.dev
 * Github: [@WeLikeToCodeStuff](https://github.com/WeLikeToCodeStuff)
 
  **Theo Paris**
